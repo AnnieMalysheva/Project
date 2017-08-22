@@ -1,5 +1,4 @@
-import {name} from '../index';
 
-export default function greeting() {
+export default function greeting(name) {
     console.log( `Hello ${name}` )
 }
