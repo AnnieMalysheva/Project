@@ -1,3 +1,5 @@
+import {name} from '../index';
+
 export default function greeting() {
-    console.log('Hello World!');
+    console.log( `Hello ${name}` )
 }
