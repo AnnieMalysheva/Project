@@ -1,3 +1,8 @@
-import greeting from './utils/greeting';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Element from './components/Element';
 
-greeting('Nick');
+ReactDOM.render(
+    <Element />,
+    document.getElementById('app')
+);
